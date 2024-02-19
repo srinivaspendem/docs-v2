@@ -79,19 +79,19 @@
           {
             "group": "APIs",
             "pages": [
-              "api/introduction-api",
-              "api/project-api",
-              "api/state-api",
-              "api/label-api",
-              "api/links-api",
-              "api/issue-api",              
-              "api/issue-activity",              
-              "api/issue-comment",              
-              "api/module-api",              
-              "api/module-issue",              
-              "api/cycle-api",              
-              "api/cycle-issue",              
-              "api/inbox-issue"            
+              "api-reference/introduction-api",
+              "api-reference/project-api",
+              "api-reference/state-api",
+              "api-reference/label-api",
+              "api-reference/links-api",
+              "api-reference/issue-api",              
+              "api-reference/issue-activity",              
+              "api-reference/issue-comment",              
+              "api-reference/module-api",              
+              "api-reference/module-issue",              
+              "api-reference/cycle-api",              
+              "api-reference/cycle-issue",              
+              "api-reference/inbox-issue"            
             ]
           },
           {
