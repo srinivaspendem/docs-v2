@@ -79,7 +79,7 @@
       "pages": ["importers/github-imp", "importers/jira-imp"]
     },
     {
-      "group": "Rest",
+      "group": "API Reference",
       "pages": [
         "api-reference/introduction",
         "api-reference/project",
