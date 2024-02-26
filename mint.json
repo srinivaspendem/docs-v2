@@ -28,8 +28,8 @@
   ],
   "tabs": [
     {
-      "name": "REST API",
-      "url": "rest"
+      "name": "API Reference",
+      "url": "api-reference"
     }
   ],
   "navigation": [
@@ -81,19 +81,19 @@
     {
       "group": "Rest",
       "pages": [
-        "rest/introduction",
-        "rest/project",
-        "rest/state",
-        "rest/label",
-        "rest/links",
-        "rest/issue",
-        "rest/issue-activity",
-        "rest/issue-comment",
-        "rest/module",
-        "rest/module-issue",
-        "rest/cycle",
-        "rest/cycle-issue",
-        "rest/inbox-issue"
+        "api-reference/introduction",
+        "api-reference/project",
+        "api-reference/state",
+        "api-reference/label",
+        "api-reference/links",
+        "api-reference/issue",
+        "api-reference/issue-activity",
+        "api-reference/issue-comment",
+        "api-reference/module",
+        "api-reference/module-issue",
+        "api-reference/cycle",
+        "api-reference/cycle-issue",
+        "api-reference/inbox-issue"
       ]
     },
     {
@@ -196,55 +196,55 @@
     },
     {
       "source": "/apis/introduction",
-      "destination": "/rest/introduction"
+      "destination": "/api-reference/introduction"
     },
     {
       "source": "/apis/project",
-      "destination": "/rest/project"
+      "destination": "/api-reference/project"
     },
     {
       "source": "/apis/state",
-      "destination": "/rest/state"
+      "destination": "/api-reference/state"
     },
     {
       "source": "/apis/label",
-      "destination": "/rest/label"
+      "destination": "/api-reference/label"
     },
     {
       "source": "/apis/links",
-      "destination": "/rest/links"
+      "destination": "/api-reference/links"
     },
     {
       "source": "/apis/issue",
-      "destination": "/rest/issue"
+      "destination": "/api-reference/issue"
     },
     {
       "source": "/apis/issue-activity",
-      "destination": "/rest/issue-activity"
+      "destination": "/api-reference/issue-activity"
     },
     {
       "source": "/apis/issue-comment",
-      "destination": "/rest/issue-comment"
+      "destination": "/api-reference/issue-comment"
     },
     {
       "source": "/apis/module",
-      "destination": "/rest/module"
+      "destination": "/api-reference/module"
     },
     {
       "source": "/apis/module-issue",
-      "destination": "/rest/module-issue"
+      "destination": "/api-reference/module-issue"
     },
     {
       "source": "/apis/cycle",
-      "destination": "/rest/cycle"
+      "destination": "/api-reference/cycle"
     },
     {
       "source": "/apis/cycle-issue",
-      "destination": "/rest/cycle-issue"
+      "destination": "/api-reference/cycle-issue"
     },
     {
       "source": "/apis/inbox-issue",
-      "destination": "/rest/inbox-issue"
+      "destination": "/api-reference/inbox-issue"
     }
   ]
 }
