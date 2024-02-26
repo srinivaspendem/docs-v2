@@ -26,6 +26,12 @@
       "url": "https://github.com/makeplane/plane"
     }
   ],
+  "tabs": [
+    {
+      "name": "REST API",
+      "url": "rest"
+    }
+  ],
   "navigation": [
     {
       "group": "Getting Started",
@@ -73,21 +79,21 @@
       "pages": ["importers/github-imp", "importers/jira-imp"]
     },
     {
-      "group": "APIs",
+      "group": "Rest",
       "pages": [
-        "api-reference/introduction-api",
-        "api-reference/project-api",
-        "api-reference/state-api",
-        "api-reference/label-api",
-        "api-reference/links-api",
-        "api-reference/issue-api",
-        "api-reference/issue-activity",
-        "api-reference/issue-comment",
-        "api-reference/module-api",
-        "api-reference/module-issue",
-        "api-reference/cycle-api",
-        "api-reference/cycle-issue",
-        "api-reference/inbox-issue"
+        "rest/introduction",
+        "rest/project",
+        "rest/state",
+        "rest/label",
+        "rest/links",
+        "rest/issue",
+        "rest/issue-activity",
+        "rest/issue-comment",
+        "rest/module",
+        "rest/module-issue",
+        "rest/cycle",
+        "rest/cycle-issue",
+        "rest/inbox-issue"
       ]
     },
     {
@@ -130,39 +136,39 @@
     },
     {
       "source": "/projects",
-      "destination": "core-concepts/projects"
+      "destination": "/core-concepts/projects"
     },
     {
       "source": "/issues",
-      "destination": "core-concepts/issues"
+      "destination": "/core-concepts/issues"
     },
     {
       "source": "/cycles",
-      "destination": "core-concepts/cycles"
+      "destination": "/core-concepts/cycles"
     },
     {
       "source": "/modules",
-      "destination": "core-concepts/modules"
+      "destination": "/core-concepts/modules"
     },
     {
       "source": "/views",
-      "destination": "core-concepts/views"
+      "destination": "/core-concepts/views"
     },
     {
       "source": "/pages",
-      "destination": "core-concepts/pages"
+      "destination": "/core-concepts/pages"
     },
     {
       "source": "/analytics",
-      "destination": "core-concepts/analytics"
+      "destination": "/core-concepts/analytics"
     },
     {
       "source": "/deploy",
-      "destination": "core-concepts/deploy"
+      "destination": "/core-concepts/deploy"
     },
     {
       "source": "/power-k",
-      "destination": "core-concepts/power-k"
+      "destination": "/core-concepts/power-k"
     },
     {
       "source": "/integrations/about",
@@ -187,6 +193,58 @@
     {
       "source": "/webhooks/introduction",
       "destination": "webhooks/intro-webhooks"
+    },
+    {
+      "source": "/apis/introduction",
+      "destination": "/rest/introduction"
+    },
+    {
+      "source": "/apis/project",
+      "destination": "/rest/project"
+    },
+    {
+      "source": "/apis/state",
+      "destination": "/rest/state"
+    },
+    {
+      "source": "/apis/label",
+      "destination": "/rest/label"
+    },
+    {
+      "source": "/apis/links",
+      "destination": "/rest/links"
+    },
+    {
+      "source": "/apis/issue",
+      "destination": "/rest/issue"
+    },
+    {
+      "source": "/apis/issue-activity",
+      "destination": "/rest/issue-activity"
+    },
+    {
+      "source": "/apis/issue-comment",
+      "destination": "/rest/issue-comment"
+    },
+    {
+      "source": "/apis/module",
+      "destination": "/rest/module"
+    },
+    {
+      "source": "/apis/module-issue",
+      "destination": "/rest/module-issue"
+    },
+    {
+      "source": "/apis/cycle",
+      "destination": "/rest/cycle"
+    },
+    {
+      "source": "/apis/cycle-issue",
+      "destination": "/rest/cycle-issue"
+    },
+    {
+      "source": "/apis/inbox-issue",
+      "destination": "/rest/inbox-issue"
     }
   ]
 }
