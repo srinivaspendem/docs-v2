@@ -1,109 +1,192 @@
 {
-    "name": "Plane",
-    "logo": {
-      "light": "/logo/light.svg",
-      "dark": "/logo/dark.svg"
+  "name": "Plane",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/logo/favicon.svg",
+  "colors": {
+    "primary": "#00A5E9",
+    "light": "#42C4F9",
+    "dark": "#00A5E9"
+  },
+  "topbarCtaButton": {
+    "name": "Sign in",
+    "url": "https://app.plane.so/"
+  },
+  "anchors": [
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.com/invite/A92xrEGCge"
     },
-    "favicon": "/logo/favicon.svg",
-    "colors": {
-      "primary": "#00A5E9",
-      "light": "#42C4F9",
-      "dark": "#00A5E9"
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/makeplane/plane"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction/home",
+        "introduction/quickstart",
+        "introduction/signup-signin"
+      ]
     },
-    "topbarCtaButton": {
-      "name": "Sign in",
-      "url": "https://app.plane.so/"
+    {
+      "group": "Self-hosting",
+      "pages": [
+        "self-hosting/overview",
+        "self-hosting/docker-compose",
+        "self-hosting/kubernetes",
+        "self-hosting/instance-admin",
+        "self-hosting/reset-password"
+      ]
     },
-    "anchors": [
-      {
-        "name": "Discord",
-        "icon": "discord",
-        "url": "https://discord.com/invite/A92xrEGCge"
-      },
-      {
-        "name": "GitHub",
-        "icon": "github",
-        "url": "https://github.com/makeplane/plane"
-      }
-    ],
-    "navigation": [
-        {
-            "group": "Getting Started",
-            "pages": [
-              "/",
-              "introduction/quickstart",
-              "introduction/signup-signin"
-            ]
-          },
-          {
-            "group": "Self-hosting",
-            "pages": [
-              "self-hosting/overview",
-              "self-hosting/docker-compose",
-              "self-hosting/kubernetes",
-              "self-hosting/instance-admin",
-              "self-hosting/reset-password"                            
-            ]
-          },
-          {
-            "group": "Core concepts",
-            "pages": [
-              "core-concepts/workspaces",
-              "core-concepts/projects",
-              "core-concepts/issues",
-              "core-concepts/cycles",
-              "core-concepts/modules",
-              "core-concepts/views",
-              "core-concepts/pages",
-              "core-concepts/analytics",
-              "core-concepts/deploy",
-              "core-concepts/power-k"
-    
-            ]
-          },
-          {
-            "group": "Integrations",
-            "pages": [
-              "integrations/about",
-              "integrations/github",
-              "integrations/slack"           
-            ]
-          },
-          {
-            "group": "Importers",
-            "pages": [
-              "importers/github-imp",
-              "importers/jira-imp"              
-            ]
-          },
-          {
-            "group": "APIs",
-            "pages": [
-              "api-reference/introduction-api",
-              "api-reference/project-api",
-              "api-reference/state-api",
-              "api-reference/label-api",
-              "api-reference/links-api",
-              "api-reference/issue-api",              
-              "api-reference/issue-activity",              
-              "api-reference/issue-comment",              
-              "api-reference/module-api",              
-              "api-reference/module-issue",              
-              "api-reference/cycle-api",              
-              "api-reference/cycle-issue",              
-              "api-reference/inbox-issue"            
-            ]
-          },
-          {
-            "group": "Webhooks",
-            "pages": [
-              "webhooks/intro-webhooks"
-            ]
-          }
-    ],
-    "footerSocials":
-      {
-          "twitter": "https://twitter.com/planepowers",
-          "linkedin": "https://www.linkedin.com/company/planepowers/"
-      }
-  }
+    {
+      "group": "Core concepts",
+      "pages": [
+        "core-concepts/workspaces",
+        "core-concepts/projects",
+        "core-concepts/issues",
+        "core-concepts/cycles",
+        "core-concepts/modules",
+        "core-concepts/views",
+        "core-concepts/pages",
+        "core-concepts/analytics",
+        "core-concepts/deploy",
+        "core-concepts/power-k"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/about",
+        "integrations/github",
+        "integrations/slack"
+      ]
+    },
+    {
+      "group": "Importers",
+      "pages": ["importers/github-imp", "importers/jira-imp"]
+    },
+    {
+      "group": "APIs",
+      "pages": [
+        "api-reference/introduction-api",
+        "api-reference/project-api",
+        "api-reference/state-api",
+        "api-reference/label-api",
+        "api-reference/links-api",
+        "api-reference/issue-api",
+        "api-reference/issue-activity",
+        "api-reference/issue-comment",
+        "api-reference/module-api",
+        "api-reference/module-issue",
+        "api-reference/cycle-api",
+        "api-reference/cycle-issue",
+        "api-reference/inbox-issue"
+      ]
+    },
+    {
+      "group": "Webhooks",
+      "pages": ["webhooks/intro-webhooks"]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/planepowers",
+    "linkedin": "https://www.linkedin.com/company/planepowers/"
+  },
+  "redirects": [
+    {
+      "source": "/quick-start",
+      "destination": "/introduction/quickstart"
+    },
+    {
+      "source": "/sign-up-sign-in",
+      "destination": "/introduction/signup-signin"
+    },
+    {
+      "source": "/docker-compose",
+      "destination": "/self-hosting/docker-compose"
+    },
+    {
+      "source": "/kubernetes",
+      "destination": "/self-hosting/kubernetes"
+    },
+    {
+      "source": "/instance-admin",
+      "destination": "/self-hosting/instance-admin"
+    },
+    {
+      "source": "/reset-password",
+      "destination": "/self-hosting/reset-password"
+    },
+    {
+      "source": "/workspaces",
+      "destination": "/core-concepts/workspaces"
+    },
+    {
+      "source": "/projects",
+      "destination": "core-concepts/projects"
+    },
+    {
+      "source": "/issues",
+      "destination": "core-concepts/issues"
+    },
+    {
+      "source": "/cycles",
+      "destination": "core-concepts/cycles"
+    },
+    {
+      "source": "/modules",
+      "destination": "core-concepts/modules"
+    },
+    {
+      "source": "/views",
+      "destination": "core-concepts/views"
+    },
+    {
+      "source": "/pages",
+      "destination": "core-concepts/pages"
+    },
+    {
+      "source": "/analytics",
+      "destination": "core-concepts/analytics"
+    },
+    {
+      "source": "/deploy",
+      "destination": "core-concepts/deploy"
+    },
+    {
+      "source": "/power-k",
+      "destination": "core-concepts/power-k"
+    },
+    {
+      "source": "/integrations/about",
+      "destination": "integrations/about"
+    },
+    {
+      "source": "/integrations/github",
+      "destination": "integrations/github"
+    },
+    {
+      "source": "/integrations/slack",
+      "destination": "integrations/slack"
+    },
+    {
+      "source": "/importers/github-imp",
+      "destination": "importers/github"
+    },
+    {
+      "source": "/importers/jirs-imp",
+      "destination": "importers/jira"
+    },
+    {
+      "source": "/webhooks/introduction",
+      "destination": "webhooks/intro-webhooks"
+    }
+  ]
+}
