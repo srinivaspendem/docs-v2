@@ -1,7 +1,8 @@
 ---
-title: Issue Comment
+title: Overview
 description: The comments that are added to the issue
 ---
+
 ```http
 POST   /api/v1/workspaces/:slug/projects/:project_id/issues/:issue_id/comments/
 GET    /api/v1/workspaces/:slug/projects/:project_id/issues/:issue_id/comments/
@@ -14,48 +15,49 @@ DELETE /api/v1/workspaces/:slug/projects/:project_id/issues/:issue_id/comments/:
 
 **Attributes**
 
-*   `created_by` , `updated_by` _uuid_
-    
-    These values are auto saved and represent the id of the user that created or updated the module
-    
-*   `created_at` _timestamp_
-    
-    The timestamp of the time when the project was created
-    
-*   `updated_at` _timestamp_
-    
-    The timestamp of the time when the project was last updated
-    
-*   `comment_html` html \*string **(required)\***
-    
-    HTML string version of the comment
-    
-*   `comment_stripped` _string_
-    
-    Stripped string version of the comment
-    
-*   `access` _string_
-    
-    If the comment should be visible externally also if the project is published or not. Takes in two values
-    
-    *   INTERNAL
-    *   EXTERNAL
-*   `project` uuid
-    
-    It contains projects uuid which is automatically saved.
-    
-*   `workspace` uuid
-    
-    It contains workspace uuid which is automatically saved
-    
-*   `issue` _uuid_
-    
-    The issue the activity is attached to
-    
-*   `actor` _uuid_
-    
-    UUID of the user who commented.
-    
+- `created_by` , `updated_by` _uuid_
+
+  These values are auto saved and represent the id of the user that created or updated the module
+
+- `created_at` _timestamp_
+
+  The timestamp of the time when the project was created
+
+- `updated_at` _timestamp_
+
+  The timestamp of the time when the project was last updated
+
+- `comment_html` html \*string **(required)\***
+
+  HTML string version of the comment
+
+- `comment_stripped` _string_
+
+  Stripped string version of the comment
+
+- `access` _string_
+
+  If the comment should be visible externally also if the project is published or not. Takes in two values
+
+  - INTERNAL
+  - EXTERNAL
+
+- `project` uuid
+
+  It contains projects uuid which is automatically saved.
+
+- `workspace` uuid
+
+  It contains workspace uuid which is automatically saved
+
+- `issue` _uuid_
+
+  The issue the activity is attached to
+
+- `actor` _uuid_
+
+  UUID of the user who commented.
+
 <ResponseExample>
 ```json JSON
 {
@@ -74,7 +76,5 @@ DELETE /api/v1/workspaces/:slug/projects/:project_id/issues/:issue_id/comments/:
 	"issue": "e1c25c66-5bb8-465e-a818-92a483423443",
 	"actor": "16c61a3a-512a-48ac-b0be-b6b46fe6f430"
 }
-
 ```
 </ResponseExample>
-

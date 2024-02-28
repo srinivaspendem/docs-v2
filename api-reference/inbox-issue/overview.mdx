@@ -1,6 +1,7 @@
 ---
-title: Inbox Issue
+title: Overview
 ---
+
 To enable an inbox, the user can hit a PATCH request on the project api with the body as
 
 ```http
@@ -19,12 +20,12 @@ DELETE /api/v1/workspaces/:slug/projects/:project_id/inbox-issues/:issue_id/
 
 To create an inbox issue, the payload should be sent in the below format
 
-```json 
+```json
 {
-	"issue": {
-		"name": "Snoozed Issue 2",
-		"priority": "high"
-	}
+  "issue": {
+    "name": "Snoozed Issue 2",
+    "priority": "high"
+  }
 }
 ```
 
@@ -32,55 +33,56 @@ To create an inbox issue, the payload should be sent in the below format
 
 **Attribute**
 
-*   `created_at` _timestamp_
-    
-    The timestamp of the time when the project was created
-    
-*   `updated_at` _timestamp_
-    
-    The timestamp of the time when the project was last updated
-    
-*   `status`
-    
-    the status of the issue can be in above mentioned status
-    
-    *   \-2 - Pending
-    *   \-1 - Rejected
-    *   0 - Snoozed
-    *   1 - Accepted
-    *   2 - Duplicate
-*   `snoozed_till`
-    
-    The time untill the issue is snoozed.
-    
-*   `source`
-    
-    The source describes the type inbox issue from
-    
-*   `created_by` , `updated_by` _uuid_
-    
-    These values are auto saved and represent the id of the user that created or updated the module
-    
-*   `Project` uuid
-    
-    It contains projects uuid which is automatically saved.
-    
-*   `Workspace` uuid
-    
-    It contains workspace uuid which is automatically saved.
-    
-*   `inbox`
-    
-    inbox id of the issue
-    
-*   `issue`
-    
-    issue id of the issue
-    
-*   `duplicate_to`
-    
-    Id of the issue of which the current issue is duplicate of.
-    
+- `created_at` _timestamp_
+
+  The timestamp of the time when the project was created
+
+- `updated_at` _timestamp_
+
+  The timestamp of the time when the project was last updated
+
+- `status`
+
+  the status of the issue can be in above mentioned status
+
+  - \-2 - Pending
+  - \-1 - Rejected
+  - 0 - Snoozed
+  - 1 - Accepted
+  - 2 - Duplicate
+
+- `snoozed_till`
+
+  The time untill the issue is snoozed.
+
+- `source`
+
+  The source describes the type inbox issue from
+
+- `created_by` , `updated_by` _uuid_
+
+  These values are auto saved and represent the id of the user that created or updated the module
+
+- `Project` uuid
+
+  It contains projects uuid which is automatically saved.
+
+- `Workspace` uuid
+
+  It contains workspace uuid which is automatically saved.
+
+- `inbox`
+
+  inbox id of the issue
+
+- `issue`
+
+  issue id of the issue
+
+- `duplicate_to`
+
+  Id of the issue of which the current issue is duplicate of.
+
 <ResponseExample>
 ```json JSON
 {
@@ -100,4 +102,3 @@ To create an inbox issue, the payload should be sent in the below format
 
 ```
 </ResponseExample>
-
