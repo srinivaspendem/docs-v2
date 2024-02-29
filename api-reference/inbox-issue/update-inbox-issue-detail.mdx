@@ -14,4 +14,6 @@ api: PATCH /api/v1/workspaces/{slug}/projects/{project_id}/inbox-issues/{issue_i
 
 ### Body
 
-<ParamField body="name" type="string"></ParamField>
+<ParamField body="issue" type="object">
+  <ParamField body="name" type="string"></ParamField>
+</ParamField>

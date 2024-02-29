@@ -1,7 +1,7 @@
 ---
 title: Add cycle issue
 description: Adds an issue in a cycle
-api: POST /api/v1/workspaces/{slug}/projects/{project_id}/cycles/{cycle_id}/issues/
+api: POST /api/v1/workspaces/{slug}/projects/{project_id}/cycles/{cycle_id}/cycle-issues/
 ---
 
 ### Path parameters
@@ -14,4 +14,6 @@ api: POST /api/v1/workspaces/{slug}/projects/{project_id}/cycles/{cycle_id}/issu
 
 ### Body
 
-<ParamField body="name" type="string" required></ParamField>
+<ParamField body="issues" type="list" required>
+It expects a list of issue ids
+</ParamField>
