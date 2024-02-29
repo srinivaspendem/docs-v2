@@ -207,6 +207,7 @@
           "group": "Inbox issue",
           "pages": [
             "api-reference/inbox-issue/overview",
+            "api-reference/inbox-issue/add-inbox-issue",
             "api-reference/inbox-issue/get-inbox-issues",
             "api-reference/inbox-issue/get-inbox-issue-detail",
             "api-reference/inbox-issue/update-inbox-issue-detail",

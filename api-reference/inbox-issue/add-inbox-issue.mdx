@@ -12,4 +12,6 @@ api: POST /api/v1/workspaces/{slug}/projects/{project_id}/inbox-issues/
 
 ### Body
 
-<ParamField body="name" type="string" required></ParamField>
+<ParamField body="issue" type="object" required>
+  <ParamField body="name" type="string" required></ParamField>
+</ParamField>
