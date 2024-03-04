@@ -292,27 +292,27 @@
     },
     {
       "source": "/integrations/about",
-      "destination": "integrations/about"
+      "destination": "/integrations/about"
     },
     {
       "source": "/integrations/github",
-      "destination": "integrations/github"
+      "destination": "/integrations/github"
     },
     {
       "source": "/integrations/slack",
-      "destination": "integrations/slack"
+      "destination": "/integrations/slack"
     },
     {
       "source": "/importers/github-imp",
-      "destination": "importers/github"
+      "destination": "/importers/github"
     },
     {
-      "source": "/importers/jirs-imp",
-      "destination": "importers/jira"
+      "source": "/importers/jira-imp",
+      "destination": "/importers/jira"
     },
     {
       "source": "/webhooks/introduction",
-      "destination": "webhooks/intro-webhooks"
+      "destination": "/webhooks/intro-webhooks"
     },
     {
       "source": "/apis/introduction",
